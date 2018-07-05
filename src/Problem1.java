@@ -3,6 +3,9 @@
  * Date: 2018-07-04
  */
 
+/**
+ *  7 Common ways to implement "Singleton".
+ */
 public class Problem1 {
     // This method is called lazy instantiation, singleton object is not
     // created until the first call.
