@@ -53,5 +53,8 @@ public class Problem3 {
         String str2 = " ll l l ";
         System.out.println(replaceWhitespace(str1));
         System.out.println(replaceWhitespace(str2));
+
+        //built-in method
+        System.out.println(str1.replace(" ", "%20"));
     }
 }
