@@ -32,10 +32,8 @@ public class Problem5 {
         int currRoot = preorder[preStart];
         int index = inStart;
 
-        while(index <= inEnd){
-            if(inorder[index] != currRoot){
+        while(index <= inEnd && inorder[index] != currRoot){
                 index ++;
-            }
         }
 
         if(index > inEnd){
@@ -60,7 +58,7 @@ public class Problem5 {
     // print the tree in preorder
     public static void printTree(BinaryTreeNode root){
         if (root != null){
-            System.out.println(root.value);
+            System.out.print(root.value + " ");
             printTree(root.left);
             printTree(root.right);
         }
