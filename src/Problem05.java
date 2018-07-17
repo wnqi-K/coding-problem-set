@@ -4,8 +4,7 @@
  */
 
 /**
- * Give the result of preorder and inorder traversal lists, reconstruct the
- * binary tree.
+ * Give the result of preorder and inorder traversal lists, reconstruct the binary tree.
  */
 public class Problem05 {
     public static class BinaryTreeNode{
@@ -65,12 +64,8 @@ public class Problem05 {
     }
 
     public static void main(String args[]){
-        //int[] preorder = {3, 7, 6, 9, 8, 10, 4};
-        //int[] inorder = {6, 7, 9, 3, 10, 8, 4};
         int[] preorder = {1, 2, 4, 5, 3, 6, 7};
         int[] inorder = {4, 2, 5, 1, 6, 3, 7};
         printTree(constructTree(preorder, inorder));
     }
-
-
 }
