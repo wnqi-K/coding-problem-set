@@ -7,7 +7,7 @@
  * Give the result of preorder and inorder traversal lists, reconstruct the
  * binary tree.
  */
-public class Problem5 {
+public class Problem05 {
     public static class BinaryTreeNode{
         int value;
         BinaryTreeNode left;

@@ -7,7 +7,7 @@
  * Give an integer n, return the nth fibonacci number.
  * Complexity O(n)
  */
-public class Problem8 {
+public class Problem08 {
     public static long fibonacci(int n){
         if(n <= 0){
             return 0;

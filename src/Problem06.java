@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * Realize a queue using two stack.
  */
-public class Problem6 {
+public class Problem06 {
     public static class MockQueue<T>{
         private Stack<T> stack1 = new Stack<>();
         private Stack<T> stack2 = new Stack<>();

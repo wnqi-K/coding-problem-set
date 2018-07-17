@@ -3,7 +3,7 @@
  * Date: 2018-07-04
  */
 
-public class Problem3 {
+public class Problem03 {
     /**
      * Replace the whitespace in a string with '%20'.
      * @param str The String to be modified.

@@ -3,7 +3,7 @@
  * Date: 2018-07-04
  */
 
-public class Problem2 {
+public class Problem02 {
     /**
      * Look up an integer in a two dimensional array, whose numbers show ascending
      * orders in both rows and columns.

@@ -5,7 +5,7 @@ import java.util.Stack;
  * Date: 2018-07-06
  */
 
-public class Problem4 {
+public class Problem04 {
     /**
      * Print a linked list reversely. Print nodes values from tail to head.
      * This method makes use of stack.

@@ -8,7 +8,7 @@
  * The array is only rotated once.
  * complexity n(Log n)
  */
-public class Problem7 {
+public class Problem07 {
     public static int findMinimum(int[] array, int start, int end) {
         if(array == null){
             throw new RuntimeException("invalid input.");

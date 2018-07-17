@@ -6,7 +6,7 @@
 /**
  * Given a number, return the number of 1s in its binary form.
  */
-public class Problem9 {
+public class Problem09 {
     public static int count1(int n){
         int count = 0;
 
