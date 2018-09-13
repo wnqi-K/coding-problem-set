@@ -10,7 +10,7 @@ public class Problem03 {
      * @return the result string with %20 replacing whitespace.
      */
     public static String replaceWhitespace(String str){
-        // if input string is empty, return.
+        // if New.Input string is empty, return.
         int strLength = str.length();
         if(strLength == 0){
            return str;
@@ -18,7 +18,7 @@ public class Problem03 {
 
         char[] strChar = str.toCharArray();
 
-        // check the number of whitespace in the input string.
+        // check the number of whitespace in the New.Input string.
         int whitespaceCount = 0;
         for(char a : strChar){
             if(a == ' '){
@@ -26,7 +26,7 @@ public class Problem03 {
             }
         }
 
-        // no whitespace found, return the input string.
+        // no whitespace found, return the New.Input string.
         if(whitespaceCount == 0){
             return str;
         }

@@ -9,7 +9,7 @@
 public class Problem10 {
     public static double power(int base, int exp){
         if(base == 0 &&  exp == 0){
-            throw new RuntimeException("invalid input. ");
+            throw new RuntimeException("invalid New.Input. ");
         }
 
         if(base == 0){

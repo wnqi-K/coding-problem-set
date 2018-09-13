@@ -25,7 +25,7 @@ public class Problem04 {
     }
 
     // A simple implementation of generic node
-    public static class Node<E>{
+    private static class Node<E>{
         E value;
         Node<E> next;
 

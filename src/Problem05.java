@@ -36,7 +36,7 @@ public class Problem05 {
         }
 
         if(index > inEnd){
-            throw new RuntimeException("invalid input");
+            throw new RuntimeException("invalid New.Input");
         }
 
         // recursively reconstruct the tree.

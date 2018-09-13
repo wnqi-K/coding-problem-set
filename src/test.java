@@ -51,7 +51,7 @@ public class test {
 
         // 如果在整个中序遍历的数组中没有找到，说明输入的参数是不合法的，抛出异常
         if (index > ie) {
-            throw new RuntimeException("Invalid input");
+            throw new RuntimeException("Invalid New.Input");
         }
 
         // 创建当前的根结点，并且为结点赋值

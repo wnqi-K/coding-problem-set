@@ -10,7 +10,7 @@
 public class Problem11 {
     public static void printToNdigit(int n){
         if(n <= 0){
-            throw new RuntimeException("invalid input. ");
+            throw new RuntimeException("invalid New.Input. ");
         }
         char[] currNumber = new char[n];
         for(int i = 0; i < n; i++){
